@@ -1,0 +1,71 @@
+﻿  coursework.cpp
+C:\Users\Никита\source\repos\coursework\coursework.cpp(40,23): error C2429: для функция языка "структурированные привязки" нужен флаг компилятора "/std:c++17"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(41,21): error C2593: неоднозначный "оператор <<"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(1075,32): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(940,31): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(934,31): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(929,31): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(923,31): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(806,31): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(761,31): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(725,32): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\ostream(681,32): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(41,21): message : при попытке сопоставить список аргументов "(std::ostream, unknown-type)"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): error C2672: "begin": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1937,27): message : может быть "_Ty *std::begin(_Ty (&)[_Size]) noexcept"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,33): message : _Ty *std::begin(_Ty (&)[_Size]) noexcept: не удается составить аргумент шаблон для "_Ty (&)[_Size]" от "unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1937): message : см. объявление "std::begin"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1922,30): message : или       "unknown-type std::begin(const _Container &)"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,33): message : Сбой при специализации функции-шаблона "unknown-type std::begin(const _Container &)".
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1922): message : см. объявление "std::begin"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): message : Со следующими аргументами шаблона:
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1917,30): message : или       "unknown-type std::begin(_Container &)"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,33): message : Сбой при специализации функции-шаблона "unknown-type std::begin(_Container &)".
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1917): message : см. объявление "std::begin"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): message : Со следующими аргументами шаблона:
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\initializer_list(55,35): message : или       "const _Elem *std::begin(std::initializer_list<_Elem>) noexcept"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,33): message : const _Elem *std::begin(std::initializer_list<_Elem>) noexcept: не удается составить аргумент шаблон для "std::initializer_list<_Elem>" от "unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\initializer_list(55): message : см. объявление "std::begin"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,33): message : const _Elem *std::begin(std::initializer_list<_Elem>) noexcept: не удается составить аргумент шаблон для "std::initializer_list<_Elem>" от "unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\initializer_list(55): message : см. объявление "std::begin"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): error C2672: "end": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1942,27): message : может быть "_Ty *std::end(_Ty (&)[_Size]) noexcept"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,33): message : _Ty *std::end(_Ty (&)[_Size]) noexcept: не удается составить аргумент шаблон для "_Ty (&)[_Size]" от "unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1942): message : см. объявление "std::end"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1932,30): message : или       "unknown-type std::end(const _Container &)"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,33): message : Сбой при специализации функции-шаблона "unknown-type std::end(const _Container &)".
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1932): message : см. объявление "std::end"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): message : Со следующими аргументами шаблона:
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1927,30): message : или       "unknown-type std::end(_Container &)"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,33): message : Сбой при специализации функции-шаблона "unknown-type std::end(_Container &)".
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xutility(1927): message : см. объявление "std::end"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): message : Со следующими аргументами шаблона:
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\initializer_list(60,35): message : или       "const _Elem *std::end(std::initializer_list<_Elem>) noexcept"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,33): message : const _Elem *std::end(std::initializer_list<_Elem>) noexcept: не удается составить аргумент шаблон для "std::initializer_list<_Elem>" от "unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\initializer_list(60): message : см. объявление "std::end"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,33): message : const _Elem *std::end(std::initializer_list<_Elem>) noexcept: не удается составить аргумент шаблон для "std::initializer_list<_Elem>" от "unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\initializer_list(60): message : см. объявление "std::end"
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): error C3536: <begin>$L1: не может использоваться до инициализации
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,40): error C3536: <end>$L1: не может использоваться до инициализации
+C:\Users\Никита\source\repos\coursework\coursework.cpp(42,38): error C2100: недопустимое косвенное обращение
